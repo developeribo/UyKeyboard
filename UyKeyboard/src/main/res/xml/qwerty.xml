@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0.0px"
+    android:keyHeight="@dimen/key_height"
+    android:keyWidth="10.000002%p"
+    android:verticalGap="0.0px">
+    <Row>
+        <Key
+            android:codes="0x0686"
+            android:iconPreview="@drawable/key_ch"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/key_ch"
+            />
+        <Key
+            android:codes="0x06CB"
+            android:iconPreview="@drawable/key_w"
+            android:keyIcon="@drawable/key_w" />
+        <Key
+            android:codes="0x06D0"
+            android:iconPreview="@drawable/key_e"
+            android:keyIcon="@drawable/key_e" />
+        <Key
+            android:codes="0x0631"
+            android:iconPreview="@drawable/key_r"
+            android:keyIcon="@drawable/key_r" />
+        <Key
+            android:codes="0x062A"
+            android:iconPreview="@drawable/key_t"
+            android:keyIcon="@drawable/key_t" />
+        <Key
+            android:codes="0x064A"
+            android:iconPreview="@drawable/key_y"
+            android:keyIcon="@drawable/key_y" />
+        <Key
+            android:codes="0x06C7"
+            android:iconPreview="@drawable/key_u"
+            android:keyIcon="@drawable/key_u" />
+        <Key
+            android:codes="0x06AD"
+            android:iconPreview="@drawable/key_ng"
+            android:keyIcon="@drawable/key_ng" />
+        <Key
+            android:codes="0x0648"
+            android:iconPreview="@drawable/key_o"
+            android:keyIcon="@drawable/key_o" />
+        <Key
+            android:codes="0x067E"
+            android:iconPreview="@drawable/key_p"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/key_p" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="0x06BE"
+            android:horizontalGap="4.999995%p"
+            android:iconPreview="@drawable/key_he"
+            android:keyIcon="@drawable/key_he" />
+        <Key
+            android:codes="0x0633"
+            android:iconPreview="@drawable/key_s"
+            android:keyIcon="@drawable/key_s" />
+        <Key
+            android:codes="0x062F"
+            android:iconPreview="@drawable/key_d"
+            android:keyIcon="@drawable/key_d" />
+        <Key
+            android:codes="0x0627"
+            android:iconPreview="@drawable/key_a"
+            android:keyIcon="@drawable/key_a" />
+        <Key
+            android:codes="0x06D5"
+            android:iconPreview="@drawable/key_ga"
+            android:keyIcon="@drawable/key_ga" />
+        <Key
+            android:codes="0x0649"
+            android:iconPreview="@drawable/key_i"
+            android:keyIcon="@drawable/key_i" />
+        <Key
+            android:codes="0x0642"
+            android:iconPreview="@drawable/key_sj"
+            android:keyIcon="@drawable/key_sj" />
+        <Key
+            android:codes="0x0643"
+            android:iconPreview="@drawable/key_k"
+            android:keyIcon="@drawable/key_k" />
+        <Key
+            android:codes="0x0644"
+            android:iconPreview="@drawable/key_l"
+            android:keyIcon="@drawable/key_l" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="-1"
+            android:isModifier="true"
+            android:isSticky="true"
+            android:keyEdgeFlags="left"
+            android:keyIcon="@drawable/key_capslok"
+            android:keyWidth="9.4%p" />
+
+
+        <Key
+            android:codes="0x0632"
+            android:iconPreview="@drawable/key_z"
+            android:keyIcon="@drawable/key_z" />
+        <Key
+            android:codes="0x0634"
+            android:iconPreview="@drawable/key_x"
+            android:keyIcon="@drawable/key_x" />
+        <Key
+            android:codes="0x063A"
+            android:iconPreview="@drawable/key_sc"
+            android:keyIcon="@drawable/key_sc" />
+        <Key
+            android:codes="0x06C8"
+            android:iconPreview="@drawable/key_sv"
+            android:keyIcon="@drawable/key_sv" />
+
+        <Key
+            android:codes="0x0628"
+            android:iconPreview="@drawable/key_b"
+            android:keyIcon="@drawable/key_b" />
+
+        <Key
+            android:codes="0x0646"
+            android:iconPreview="@drawable/key_n"
+            android:keyIcon="@drawable/key_n" />
+        <Key
+            android:codes="0x0645"
+            android:iconPreview="@drawable/key_m"
+            android:keyIcon="@drawable/key_m" />
+
+        <Key
+            android:codes="0x0626"
+            android:iconPreview="@drawable/key_hamza"
+            android:keyIcon="@drawable/key_hamza" />
+
+
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/key_delete"
+            android:keyWidth="9.4%p" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key
+            android:codes="-2"
+            android:keyIcon="@drawable/key_language"
+            android:keyWidth="20.000004%p" />
+        <Key
+            android:codes="44"
+            android:keyLabel=","
+            android:keyWidth="15%p" />
+        <Key
+            android:codes="32"
+            android:isRepeatable="true"
+            android:keyIcon="@drawable/key_space"
+            android:keyWidth="29.999996%p" />
+
+
+        <Key
+            android:codes="46"
+            android:keyLabel="."
+            android:keyWidth="15%p" />
+        <Key
+            android:codes="-3"
+            android:keyEdgeFlags="right"
+            android:iconPreview="@drawable/key_ok"
+            android:keyIcon="@drawable/key_ok"
+            android:keyWidth="20.000004%p" />
+    </Row>
+</Keyboard>

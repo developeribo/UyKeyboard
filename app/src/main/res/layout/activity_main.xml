@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ibo.keyboard.KeyboardListenRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ScrollView android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:background="@drawable/et_bg"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingLeft="5dp"
+            android:id="@+id/normal1"
+            android:paddingRight="5dp"
+            android:hint="normal" />
+
+        <EditText android:background="@drawable/et_bg"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:id="@+id/uy1"
+            android:hint="UyKeyboard" />
+        <EditText android:background="@drawable/et_bg"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:id="@+id/uy2"
+            android:hint="UyKeyboard" />
+
+        <EditText android:background="@drawable/et_bg"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:paddingLeft="5dp"
+            android:id="@+id/normal2"
+            android:layout_marginTop="15dp"
+            android:paddingRight="5dp"
+            android:hint="normal" />
+
+    </LinearLayout>
+    </ScrollView>
+
+    <include layout="@layout/keyboard_layout"/>
+
+</com.ibo.keyboard.KeyboardListenRelativeLayout>
